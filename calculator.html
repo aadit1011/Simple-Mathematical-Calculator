@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Calculator by Aadit Sharma</title>
+     <link rel="stylesheet" href="calculator.css">
+</head>
+      <script src="calculator.js" defer></script>
+<body>
+     <div class="calculator">
+          <div class="output-container">
+               <input type="text" name="" readonly id="output" >
+          </div>
+          <div class="input-container">
+               <div class="number-container">
+                    <button class="num-1" onclick="num9()">9</button>
+                    <button class="num-2" onclick="num8()">8</button>
+                    <button class="num-3" onclick="num7()">7</button>
+                    <button class="num-4" onclick="num6()">6</button>
+                    <button class="num-5" onclick="num5()">5</button>
+                    <button class="num-6" onclick="num4()">4</button>
+                    <button class="num-7"onclick="num3()">3</button>
+                    <button class="num-8" onclick="num2()">2</button>
+                    <button class="num-9" onclick="num1()">1</button>
+                    <button class="num-0" onclick="num0()">0</button>
+               </div>
+               <div class="operator-container">
+                    <button class="equal" onclick="s_equal()" >=</button>
+                    <button class="plus" onclick="s_plus()">+</button>
+                    <button class="minus" onclick="s_minus()">-</button>
+                    <button class="multiply" onclick="s_multiply()">x</button>
+                    <button class="divide" onclick="s_divide()">/</button>
+                    <button class="clear" onclick="s_clear()">C</button>
+               </div>
+          </div>
+     </div>
+</body>
+</html>
